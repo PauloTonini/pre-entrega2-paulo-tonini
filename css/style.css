@@ -70,7 +70,9 @@ h3 {
 ul {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
+.card {
+    display: none;
+}
 @media screen and (max-width: 768px) {
     .navegador {
         display: flex;
@@ -81,6 +83,7 @@ ul {
     }
     .menu {
         display: flex;
+        justify-content: center;
         margin: 5%;
         padding: 5%;
     }
@@ -89,7 +92,28 @@ ul {
         display: flex;
         justify-content: space-around;
     }
-    
+    .card{
+        display: block;
+        display: flex;
+        margin: 0px 100px 100px 100px;
+       
+
+    }
+    .imagen {
+        display: none;
+    }
+    h3{
+        display: none;
+    }
+    p{
+        display: none;
+    }
+    .card-body{
+        display: block;
+    }
+    .card-text{
+        display: block;
+    }
      }
    
     
