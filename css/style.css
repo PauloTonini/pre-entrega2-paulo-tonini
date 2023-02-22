@@ -73,6 +73,9 @@ ul {
 .card {
     display: none;
 }
+.lista {
+   list-style-type: none;
+}
 @media screen and (max-width: 768px) {
     .navegador {
         display: flex;
@@ -102,18 +105,17 @@ ul {
     .imagen {
         display: none;
     }
-    h3{
-        display: none;
-    }
-    p{
-        display: none;
-    }
+    p {display: none;}
+    
     .card-body{
         display: block;
     }
     .card-text{
         display: block;
     }
+    .parrafo {display: block;}
+    .titulo-amigurumis { display: none;}
+
      }
    
     
