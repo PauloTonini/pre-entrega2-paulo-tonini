@@ -1,3 +1,22 @@
+.body{
+    .barra{
+        .navegador{
+            .enlaces{
+                .boton{
+                &:hover{
+                    background-color: black;
+                    color: white;
+                        }
+                &:active{
+                    color: violet;
+                    background-color: white;
+                }       
+                }
+            }
+        }
+    }
+}
+
 .encabezado {
     display: flex;
     justify-content: center;
@@ -118,7 +137,3 @@ ul {
 
      }
    
-    
-
-
- 
